@@ -1,9 +1,6 @@
 module.exports = {
   root: true,
   extends: 'standard',
-  parserOptions: {
-    sourceType: 'script'
-  },
   env: {
     browser: false,
     es6: true,
