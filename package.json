@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-twiz",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "Twiz eslint config",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,8 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.3.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=3.19.0"
   }
 }

@@ -1,5 +1,4 @@
 module.exports = {
-  root: true,
   extends: 'standard',
   env: {
     browser: false,
@@ -8,9 +7,9 @@ module.exports = {
   },
   rules: {
     'object-curly-spacing': [ 2, 'always' ],
-    strict: [ 2, 'global' ],
-    quotes: [ 2, 'single', 'avoid-escape' ],
-    semi: [ 2, 'always' ],
+    'strict': [ 2, 'global' ],
+    'quotes': [ 2, 'single', 'avoid-escape' ],
+    'semi': [ 2, 'always' ],
     'space-before-function-paren': [ 1, 'never' ],
     'space-infix-ops': 2,
     'spaced-comment': 0,
