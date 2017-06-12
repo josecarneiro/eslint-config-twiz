@@ -10,7 +10,7 @@ module.exports = {
     'strict': [ 2, 'global' ],
     'quotes': [ 2, 'single', 'avoid-escape' ],
     'semi': [ 2, 'always' ],
-    'space-before-function-paren': [ 1, 'never' ],
+    'space-before-function-paren': [ 1, 'always' ],
     'space-infix-ops': 2,
     'spaced-comment': 0,
     'arrow-spacing': 2,
