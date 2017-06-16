@@ -21,6 +21,8 @@ module.exports = {
     'padded-blocks': 0,
     'no-template-curly-in-string': 2,
     'arrow-parens': [ 1, 'as-needed' ],
-    'eol-last': [ 1, 'always' ]
+    'eol-last': [ 1, 'always' ],
+    'prefer-rest-params': [ 2, 'always' ],
+    'indent': [ 1, 2, { 'MemberExpression': 0 }]
   }
 };
