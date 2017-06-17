@@ -10,7 +10,7 @@ module.exports = {
     'strict': [ 2, 'global' ],
     'quotes': [ 2, 'single', 'avoid-escape' ],
     'semi': [ 2, 'always' ],
-    'space-before-function-paren': [ 1, 'always' ],
+    'space-before-function-paren': [ 1, 'never' ],
     'space-infix-ops': 2,
     'spaced-comment': 0,
     'arrow-spacing': 2,
@@ -22,7 +22,7 @@ module.exports = {
     'no-template-curly-in-string': 2,
     'arrow-parens': [ 1, 'as-needed' ],
     'eol-last': [ 1, 'always' ],
-    'prefer-rest-params': [ 2, 'always' ],
+    'prefer-rest-params': 2,
     'indent': [ 1, 2, { 'MemberExpression': 0 }]
   }
 };
