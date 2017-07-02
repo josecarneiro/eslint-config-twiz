@@ -6,23 +6,24 @@ module.exports = {
     node: true
   },
   rules: {
-    'object-curly-spacing': [ 2, 'always' ],
-    'strict': [ 2, 'global' ],
-    'quotes': [ 2, 'single', 'avoid-escape' ],
-    'semi': [ 2, 'always' ],
-    'space-before-function-paren': [ 1, 'never' ],
-    'space-infix-ops': 2,
-    'spaced-comment': 0,
+    'arrow-parens': [ 1, 'as-needed' ],
     'arrow-spacing': 2,
+    'eol-last': [ 1, 'always' ],
+    'indent': [ 1, 2, { 'MemberExpression': 0, 'SwitchCase': 1 }],
     'no-console': 0,
     'no-var': 2,
     'no-undef': 1,
     'no-unused-vars': [ 1, { "vars": "all", "args": "after-used" } ],
-    'padded-blocks': 0,
     'no-template-curly-in-string': 2,
-    'arrow-parens': [ 1, 'as-needed' ],
-    'eol-last': [ 1, 'always' ],
+    'no-trailing-spaces': 0,
+    'object-curly-spacing': [ 2, 'always' ],
+    'padded-blocks': 0,
     'prefer-rest-params': 2,
-    'indent': [ 1, 2, { 'MemberExpression': 0 }]
+    'quotes': [ 2, 'single', 'avoid-escape' ],
+    'semi': [ 2, 'always' ],
+    'space-before-function-paren': [ 1, 'always' ],
+    'space-infix-ops': 2,
+    'spaced-comment': 0,
+    'strict': [ 2, 'global' ]
   }
 };

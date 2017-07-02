@@ -1,0 +1,1 @@
+Eslint configuration file. Extends eslint standard config.

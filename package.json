@@ -1,12 +1,19 @@
 {
-  "name": "eslint-config-twiz",
-  "version": "0.1.6",
+  "name": "@twiz/eslint-config-twiz",
+  "version": "0.1.7",
   "description": "Twiz eslint config",
   "main": "index.js",
   "scripts": {
     "test": "mocha ./test/index.js"
   },
-  "author": "José Carneiro",
+  "author": {
+    "name": "José Carneiro",
+    "email": "jose@light.pt"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/twizco/eslint-config-twiz.git"
+  },
   "license": "MIT",
   "dependencies": {
     "eslint-config-standard": "^10.2.1",

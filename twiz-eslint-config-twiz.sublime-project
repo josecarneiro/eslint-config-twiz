@@ -1,0 +1,14 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				".gitignore",
+				".npmignore",
+				"yarn.lock"
+			],
+			"path": "."
+		}
+	]
+}
