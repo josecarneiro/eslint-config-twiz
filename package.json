@@ -1,6 +1,6 @@
 {
   "name": "@twiz/eslint-config-twiz",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Twiz eslint config",
   "main": "index.js",
   "scripts": {
