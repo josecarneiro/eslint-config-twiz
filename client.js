@@ -5,6 +5,12 @@ module.exports = {
     es6: true,
     node: false
   },
+  parserOptions: {
+    sourceType: 'module',
+    ecmaFeatures: {
+      modules: true
+    }
+  },
   rules: {
   }
 };

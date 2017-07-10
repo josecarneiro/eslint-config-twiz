@@ -5,6 +5,12 @@ module.exports = {
     es6: true,
     node: true
   },
+  parserOptions: {
+    sourceType: "script",
+    ecmaFeatures: {
+      modules: false
+    }
+  },
   rules: {
     'arrow-parens': [ 1, 'as-needed' ],
     'arrow-spacing': 2,
